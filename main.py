@@ -7,8 +7,8 @@ def colorize(text, color):
     return f"{color}{text}{Style.RESET_ALL}"
 
 def save_spotify_stats_as_image():
-    CLIENT_ID = '31219d11cd8e442e82c9d32b4f8ad331'
-    CLIENT_SECRET = 'e2080d0cadec476d8c92c29962741b94'
+    CLIENT_ID = 'YOUR_ID_HERE'
+    CLIENT_SECRET = 'YOUR_SECRET_HERE'
     REDIRECT_URI = 'http://localhost:5173/callback/'
     SCOPE = 'user-library-read user-top-read user-read-recently-played user-read-playback-state'
 
