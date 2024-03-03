@@ -25,7 +25,7 @@ SpotiStats is a Python script that leverages the Spotify API to provide users wi
 
 3. Install the required dependencies:
 
-   ```bash
+   ```python
    pip install spotipy
    pip install colorama
    pip install matplotlib
@@ -39,7 +39,7 @@ SpotiStats is a Python script that leverages the Spotify API to provide users wi
 
 3. Run the SpotiStats script:
 
-   ```bash
+   ```python
    python spotiStats.py
    ```
 
